@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+    --color-greenNav: #027A48;
+    --color-greenSub: #039855;
+    --color-greenLight: #12B76A;
+}
