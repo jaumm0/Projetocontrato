@@ -10,11 +10,12 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "json-server --watch db.json --port 3001",
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "html2pdf.js": "^0.12.1",
+    "lucide-react": "^0.559.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.10.1"
