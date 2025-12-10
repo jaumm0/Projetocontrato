@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter} from "react-router-dom";
 import Home from "./Pages/Home";
 import Planos from "./Pages/Planos";
 import Dashboard from "./Pages/Dashboard";
@@ -16,8 +16,8 @@ function App() {
         
 
         {/* Outras páginas */}
-        <Route path="Projetocontrato/#/Planos" element={<Planos />} />
-        <Route path="Projetocontrato/#/Dashboard" element={<Dashboard />} />
+        <Route path="/Planos" element={<Planos />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
 
       </Routes>
     </HashRouter>
