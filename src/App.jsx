@@ -12,12 +12,12 @@ function App() {
       <Routes>
 
         {/* Página inicial */}
-        <Route path="/#/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         
 
         {/* Outras páginas */}
-        <Route path="/#/Planos" element={<Planos />} />
-        <Route path="/#/Dashboard" element={<Dashboard />} />
+        <Route path="/Planos" element={<Planos />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
 
       </Routes>
     </HashRouter>
