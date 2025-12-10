@@ -3,6 +3,7 @@ import Main from "./ComponentsHome/Main"
 
 function    Home () {
     return(
+    <main>
         <header>
             <nav>
                 <ul className="py-4 bg-greenSub text-white ">
@@ -18,6 +19,8 @@ function    Home () {
             </nav>
             
         </header>
+        <Main>  </Main>
+        </main>
         
     )
 
