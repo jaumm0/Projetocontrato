@@ -7,6 +7,7 @@ function App() {
   return (
     <HashRouter>
       <Routes>
+        
         <Route path="/" element={<Home />} />
         <Route path="/Planos" element={<Planos />} />
         <Route path="/Dashboard" element={<Dashboard />} />
