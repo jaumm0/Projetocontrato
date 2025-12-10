@@ -16,8 +16,8 @@ function App() {
         
 
         {/* Outras páginas */}
-        <Route path="#/Planos" element={<Planos />} />
-        <Route path="/Dashboard" element={<Dashboard />} />
+        <Route path="Projetocontrato/#/Planos" element={<Planos />} />
+        <Route path="Projetocontrato/#/Dashboard" element={<Dashboard />} />
 
       </Routes>
     </HashRouter>
