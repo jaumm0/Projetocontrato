@@ -16,7 +16,7 @@ function App() {
         
 
         {/* Outras páginas */}
-        <Route path="/Planos" element={<Planos />} />
+        <Route path="#/Planos" element={<Planos />} />
         <Route path="/Dashboard" element={<Dashboard />} />
 
       </Routes>
